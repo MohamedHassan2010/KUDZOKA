@@ -1,0 +1,1229 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px 0px;
+}
+
+nav img {
+    width: 130px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li a {
+    margin: 0 12px;
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav .section1_btn2 {
+    position: relative;
+}
+
+nav .section1_btn2 img {
+    width: 120px;
+    height: 50px;
+}
+
+nav .section1_btn2 span {
+    position: absolute;
+    left: 32%;
+    top: 20%;
+    font-size: 18px;
+    color: #333;
+}
+
+
+
+
+
+.section1_btn1:hover::after,
+.section1_btn1:active::after,
+.section1_btn1:focus::after
+{
+    content: "";
+    width: 100%;
+    height: 5%;
+    transition: 5s;
+    background-color: #b219db;
+    display: inline-block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+}
+
+
+.section1 {
+    position: relative;
+}
+
+.section1_img1 {
+    position: absolute;
+    width: 100%;
+    height: 720px;
+    z-index: -1000;
+}
+
+.firstDiv {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: relative;
+    top:50px;
+}
+
+.divText {
+    padding-top: 180px;
+    width: 50%;
+}
+
+.divText h3 {
+    font-size: 55px;
+    color: #637279;
+    font-weight: 600;
+}
+
+.divText h3 span {
+    color: #7a3d8a;
+}
+
+.divText p {
+    color: #afafaf;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.divImgs {
+    width: 50%;
+    position: relative;
+}
+
+.divImgs .background {
+    width: 100%;
+}
+
+.divImgs .man {
+    position: absolute;
+    width: 45%;
+    left: 20%;
+    top: 20px;
+}
+
+.divImgs .cloud {
+    position: absolute;
+    width: 60%;
+    left: 15%;
+    top: 410px;
+}
+
+.waves {
+    position: absolute;
+    width: 90%;
+    top: 70%;
+    left: -18%;
+}
+/*end first section*/
+
+/*start second section*/
+.section2 {
+    position: relative;
+    text-align: center;
+    padding: 0px 100px;
+    height: 120vh;
+}
+
+.sec2ground {
+    position: absolute;
+    width: 65%;
+    top: 8%;
+    left: 22%;
+    height: 60%;
+}
+
+.threedivs div {
+    width: 400px;
+}
+
+.threedivs div img {
+    width: 250px;
+}
+
+.threedivs div h3 {
+    color: #999;
+    font-size: 25px;
+}
+
+.threedivs div p {
+    color: #b9b9b9;
+    font-size: 20px;
+    line-height: 25px;
+    width: 450px;
+}
+
+.threedivs .div1 {
+    position: absolute;
+    top: 16%;
+    left: 10%;
+}
+
+.threedivs .div2 {
+    position: absolute;
+    top: 32%;
+    left: 40%;
+}
+
+.threedivs .div3 {
+    position: absolute;
+    top: 65%;
+    right: 12%;
+}
+
+.div4 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+
+.div4all {
+    position: relative;
+}
+
+.div4all img {
+    width: 350px;
+}
+
+.div4all div {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    text-align: left;
+}
+
+.div4all div p {
+    color: white;
+    font-size: 25px;
+}
+
+.div4all div h3 {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+}
+/*end second section*/
+
+/*start third section*/
+.section3 {
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.mainDiv {
+    padding: 0 30px;
+}
+
+.mainDiv h3 {
+    color: #999;
+    font-size: 25px;
+    margin-left: 80px;
+}
+
+.mainDiv p {
+    color: #b9b9b9;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+/*end third section*/
+
+/*start footer*/
+footer {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.bgfooter {
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+    top: 0;
+
+}
+
+.people {
+    position: absolute;
+    width: 40vw;
+    right: 10%;
+    bottom: 0%;
+
+}
+
+.div4_section3 {
+    position: absolute;
+    top: 270px;
+    left: 900px;
+    text-decoration: none;
+}
+
+.div5_section3 {
+    position: absolute;
+    top: 270px;
+    left: 500px;
+    text-decoration: none;
+}
+
+footer .footertext {
+    position: absolute;
+    top: 68%;
+    left: 5%;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 10px;
+}
+
+footer ul li a {
+    margin-right: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.socialimgs {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.socialimgs img {
+    width: 25px;
+    height: 25px;
+    margin-right: 15px;
+
+}
+
+footer .footerBtn {
+    position: relative;
+    width: 130px;
+    height: 50px;
+    margin-right: 5px;
+    top: 10px;
+    text-decoration: none;
+}
+
+footer .footerBtn .btnImg {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+footer .footerBtn div {
+    position: absolute;
+    left: 5%;
+    top: 6px;
+    display: flex;
+    align-items: center;
+
+}
+
+footer .footerBtn div p {
+    font-size: 12px;
+    color: #333;
+    margin:50px;
+}
+
+footer .footerBtn div span {
+    display: block;
+    color: #7a3d8a;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width:1200px) {
+
+    /*start first section*/
+    .section1_img1 {
+        height: 80vh;
+    }
+
+    .divText {
+        padding-top: 120px;
+    }
+
+    .divText h3 {
+        font-size: 45px;
+    }
+
+    .divText p {
+        font-size: 22px;
+    }
+
+    .waves {
+        top: 70%;
+    }
+    /*end first section*/
+
+    /*start second section*/
+    .threedivs div {
+        width: 300px;
+    }
+
+    .threedivs div img {
+        width: 200px;
+    }
+
+    .threedivs div p {
+        font-size: 18px;
+    }
+
+    .threedivs .div1 {
+        top: 14%;
+    }
+
+    .threedivs .div2 {
+        top: 26%;
+    }
+
+    .threedivs .div3 {
+        top: 52%;
+    }
+
+    .div4 {
+        top: 60%;
+    }
+
+    .div4all img {
+        width: 300px;
+    }
+
+    .div4all div h3 {
+        font-size: 40px;
+    }
+    /*end second section*/
+
+    /*start third section*/
+    .section3 {
+        padding-top: 10px;
+    }
+
+    .section3 .mainImg {
+        height:100px;
+    }
+
+    .section3 .smallImg {
+        width: 200px;
+    }
+    /*end third section*/
+
+    /*footer*/
+    footer {
+        height: 70vh;
+    }
+}
+
+@media only screen and (max-width:1300px) {
+
+
+    .right {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:992px) {
+
+    /*start first section*/
+    .section1_img1 {
+        height: 70vh;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .divText {
+        padding-top: 50px;
+    }
+
+    .divText h3 {
+        font-size: 35px;
+    }
+
+    .divText p {
+        font-size: 18px;
+    }
+    /*end first section*/
+
+    /*start second section*/
+    .section2 {
+        height: 100vh;
+    }
+
+    .threedivs div img {
+        width: 180px;
+    }
+
+    .threedivs div p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .threedivs .div3 {
+        top: 46%;
+        right: 8%;
+    }
+
+    .div4 {
+        top: 55%;
+    }
+    /*end second section*/
+
+    /*footer*/
+    footer {
+        height: 60vh;
+    }
+
+    footer .footertext {
+        top: 65%;
+    }
+
+    footer ul {
+        margin-top: 10px;
+    }
+
+    .socialimgs {
+        margin-top: 5px;
+    }
+}
+
+@media only screen and (max-width:993px) {
+
+    .App {
+        display: none;
+    }  
+
+}
+
+@media only screen and (max-width:912px) {
+
+.App {
+    display: none;
+}    
+    /*navbar */
+    nav ul li a {
+        font-size: 8px;
+    }
+
+    /*first section*/
+    .section1_img1 {
+        height: 400px;
+    }
+
+    .threedivs .div1 {
+        top: 17%;
+        left: 5%;
+    }
+
+    .threedivs .div2 {
+        top: 35%;
+        left: 35%;
+    }
+
+    .threedivs .div3 {
+        top: 66%;
+        right: 8%;
+    }
+
+    .div4 {
+        top: 55%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    /*navbar*/
+    nav {
+        padding: 20px 50px 0px;
+    }
+
+    nav ul li a {
+        margin: 0 5px;
+        font-size: 15px;
+    }
+
+    nav .section1_btn2 {
+        position: relative;
+    }
+
+    nav .section1_btn2 img {
+        width: 100px;
+        height: 35px;
+    }
+
+    nav .section1_btn2 span {
+        left: 30%;
+        top: 10%;
+        font-size: 15px;
+    }
+
+    /*first section*/
+    .section1_img1 {
+        height: 380px;
+    }
+
+    .divText h3 {
+        font-size: 25px;
+    }
+
+    .divText p {
+        font-size: 12px;
+    }
+
+    /*second section*/
+    .section2 {
+        height: 80vh;
+    }
+
+    .threedivs div {
+        width: 220px;
+    }
+
+    .threedivs div img {
+        width: 130px;
+    }
+
+    .threedivs div h3 {
+        font-size: 18px;
+    }
+
+    .threedivs div p {
+        font-size: 12px;
+    }
+
+    .threedivs .div2 {
+        top: 32%;
+    }
+
+    .threedivs .div3 {
+        top: 60%;
+    }
+
+    .div4all img {
+        width: 200px;
+    }
+
+    .div4all div p {
+        font-size: 15px;
+    }
+
+    .div4all div h3 {
+        font-size: 30px;
+    }
+
+    /*third section*/
+    .section3 {
+        padding-top: 10px;
+    }
+
+    .mainDiv p {
+        font-size: 18px;
+    }
+
+    .section3 .mainImg {
+        width: 300px;
+    }
+
+    .section3 .smallImg {
+        width: 150px;
+    }
+
+    /*footer*/
+    footer {
+        height: 40vh;
+    }
+
+    footer ul {
+        margin-top: 10px;
+    }
+
+    .socialimgs {
+        margin-top: 10px;
+    }
+
+    footer .footerBtn {
+        width: 100px;
+        height: 40px;
+    }
+
+    footer .footerBtn .btnImg {
+        width: 100px;
+        height: 40px;
+    }
+
+    footer .footerBtn div img {
+        width: 20px;
+    }
+
+    footer .footerBtn div p {
+        font-size: 8px;
+    }
+
+    footer .footerBtn div span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+
+    /*navbar*/
+    nav {
+        padding: 20px 10px 0px;
+    }
+
+    nav ul li a {
+        font-size: 8px;
+    }
+
+    nav img {
+        width: 70px;
+    }
+
+    nav .section1_btn2 img {
+        width: 70px;
+        height: 25px;
+    }
+
+    nav .section1_btn2 span {
+        left: 35%;
+        top: 15%;
+        font-size: 10px;
+    }
+
+    /*first section*/
+    .firstDiv {
+        padding: 0px 50px;
+    }
+
+    .section1_img1 {
+        height: 250px;
+    }
+
+    .divText h3 {
+        font-size: 13px;
+    }
+
+    .divText p {
+        margin-top: 10px;
+        font-size: 8px;
+    }
+
+    /*second section*/
+    .section2 {
+        height: 60vh;
+    }
+
+    .sec2ground {
+        position: absolute;
+        width: 65%;
+        top: 15%;
+        left: 22%;
+        height: 35%;
+    }
+
+    .threedivs div {
+        width: 120px;
+    }
+
+    .threedivs div img {
+        width: 80px;
+    }
+
+    .threedivs div h3 {
+        font-size: 12px;
+    }
+
+    .threedivs div p {
+        font-size: 8px;
+        line-height: 8px;
+    }
+
+    .threedivs .div1 {
+        top: 20%;
+        left: 5%;
+    }
+
+    .threedivs .div2 {
+        top: 28%;
+        left: 35%;
+    }
+
+    .threedivs .div3 {
+        top: 50%;
+    }
+
+    .div4 {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+    }
+
+    .div4all {
+        position: relative;
+    }
+
+    .div4all img {
+        width: 150px;
+    }
+
+    .div4all div p {
+        font-size: 15px;
+    }
+
+    .div4all div h3 {
+        font-size: 20px;
+    }
+
+    /*third section*/
+    .section3 {
+        padding-top: 10px;
+    }
+
+    .mainDiv h3 {
+        font-size: 12px;
+    }
+
+    .mainDiv p {
+        font-size: 8px;
+    }
+
+    .section3 .mainDiv {
+        padding: 0 1px;
+    }
+
+    .section3 .mainImg {
+        width: 150px;
+    }
+
+    .section3 .smallImg {
+        width: 100px;
+    }
+
+    /*footer*/
+    footer {
+        height: 50vh;
+    }
+
+    footer ul {
+        margin-top: 5px;
+    }
+
+    footer .people {
+        display: none;
+    }
+
+    .socialimgs {
+        margin-top: 5px;
+    }
+
+    footer .footerBtn {
+        width: 100px;
+        height: 40px;
+    }
+
+    footer .footerBtn .btnImg {
+        width: 100px;
+        height: 40px;
+    }
+
+    footer .footerBtn div img {
+        width: 20px;
+    }
+
+    footer .footerBtn div p {
+        font-size: 8px;
+    }
+
+    footer .footerBtn div span {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width:280px) {
+
+    /*navbar*/
+    nav {
+        padding: 15px 5px 0px;
+    }
+
+    nav ul li a {
+        font-size: 5px;
+    }
+
+    nav img {
+        width: 50px;
+    }
+
+    nav .section1_btn2 img {
+        width: 50px;
+        height: 15px;
+    }
+
+    nav .section1_btn2 span {
+        left: 35%;
+        top: 18%;
+        font-size: 8px;
+    }
+
+    /*first section*/
+    .section1_img1 {
+        height: 170px;
+    }
+
+    .firstDiv {
+        padding: 0px 20px;
+    }
+
+    .divText {
+        padding-top: 25px;
+    }
+
+    .divText h3 {
+        font-size: 10px;
+    }
+
+    .divText p {
+        font-size: 8px;
+        margin-top: 5px;
+    }
+
+    /*second section*/
+    .section2 {
+        height: 40vh;
+    }
+
+    .threedivs div {
+        width: 100px;
+    }
+
+    .threedivs div h3 {
+        font-size: 8px;
+    }
+
+    .threedivs div p {
+        font-size: 5px;
+        line-height: 8px;
+    }
+
+    .threedivs div img {
+        width: 50px;
+    }
+
+    .threedivs .div1 {
+        top: 12%;
+        left: 8%;
+    }
+
+    .threedivs .div2 {
+        position: absolute;
+        top: 28%;
+        left: 35%;
+    }
+
+    .threedivs .div3 {
+        top: 40%;
+        right: 3%;
+    }
+
+    .div4 {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+
+    .div4all img {
+        width: 100px;
+    }
+
+    .div4all div p {
+        color: white;
+        font-size: 5px;
+    }
+
+    .div4all div h3 {
+        font-size: 15px;
+    }
+
+    /*third section*/
+    .section3 {
+        padding-top: 10px;
+    }
+
+    .mainDiv {
+        padding: 0 5px;
+    }
+
+    .mainDiv h3 {
+        font-size: 8px;
+    }
+
+    .mainDiv p {
+        font-size: 8px;
+    }
+
+    .section3 .mainImg {
+        width: 100px;
+    }
+
+    .section3 .smallImg {
+        width: 50px;
+    }
+
+    /*footer*/
+    footer {
+        height: 30vh;
+    }
+
+    footer ul {
+        margin-top: 2px;
+    }
+
+    footer ul li a {
+        font-size: 12px;
+    }
+
+    .socialimgs {
+        margin-top: 0px;
+    }
+
+    .socialimgs img {
+        width: 10px;
+        height: 10px;
+    }
+
+    footer .footerBtn {
+        width: 80px;
+        height: 30px;
+    }
+
+    footer .footerBtn .btnImg {
+        width: 80px;
+        height: 30px;
+    }
+
+    footer .footerBtn div img {
+        width: 20px;
+    }
+
+    footer .footerBtn div p {
+        font-size: 5px;
+    }
+
+    footer .footerBtn div span {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:237px) {
+
+    /*navbar*/
+    nav {
+        padding: 15px 5px 0px;
+    }
+
+    nav ul li a {
+        font-size: 5px;
+    }
+
+    nav img {
+        width: 50px;
+    }
+
+    nav .section1_btn2 img {
+        width: 50px;
+        height: 15px;
+    }
+
+    nav .section1_btn2 span {
+        left: 35%;
+        top: 18%;
+        font-size: 8px;
+    }
+
+    /*first section*/
+    .section1_img1 {
+        height: 170px;
+    }
+
+    .firstDiv {
+        padding: 0px 20px;
+    }
+
+    .divText {
+        padding-top: 25px;
+    }
+
+    .divText h3 {
+        font-size: 10px;
+    }
+
+    .divText p {
+        font-size: 8px;
+        margin-top: 5px;
+    }
+
+    /*second section*/
+    .section2 {
+        height: 40vh;
+    }
+
+    .threedivs div {
+        width: 100px;
+    }
+
+    .threedivs div h3 {
+        font-size: 8px;
+    }
+
+    .threedivs div p {
+        font-size: 5px;
+        line-height: 8px;
+    }
+
+    .threedivs div img {
+        width: 50px;
+    }
+
+    .threedivs .div1 {
+        top: 12%;
+        left: 8%;
+    }
+
+    .threedivs .div2 {
+        position: absolute;
+        top: 28%;
+        left: 35%;
+    }
+
+    .threedivs .div3 {
+        top: 40%;
+        right: 3%;
+    }
+
+    .div4 {
+        position: absolute;
+        top: 55%;
+        left: 10%;
+    }
+
+    .div4all img {
+        width: 100px;
+    }
+
+    .div4all div p {
+        color: white;
+        font-size: 5px;
+    }
+
+    .div4all div h3 {
+        font-size: 15px;
+    }
+
+    /*third section*/
+    .section3 {
+        padding-top: 10px;
+    }
+
+    .mainDiv {
+        padding: 0 5px;
+    }
+
+    .mainDiv h3 {
+        font-size: 8px;
+    }
+
+    .mainDiv p {
+        font-size: 8px;
+    }
+
+    .section3 .mainImg {
+        width: 100px;
+    }
+
+    .section3 .smallImg {
+        width: 50px;
+    }
+
+    /*footer*/
+    footer {
+        height: 30vh;
+    }
+
+    footer ul {
+        margin-top: 2px;
+    }
+
+    footer ul li a {
+        font-size: 12px;
+    }
+
+    .socialimgs {
+        margin-top: 0px;
+    }
+
+    .socialimgs img {
+        width: 10px;
+        height: 10px;
+    }
+
+    footer .footerBtn {
+        width: 80px;
+        height: 30px;
+    }
+
+    footer .footerBtn .btnImg {
+        width: 80px;
+        height: 30px;
+    }
+
+    footer .footerBtn div img {
+        width: 20px;
+    }
+
+    footer .footerBtn div p {
+        font-size: 5px;
+    }
+
+    footer .footerBtn div span {
+        font-size: 8px;
+    }
+}
+
